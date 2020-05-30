@@ -8,8 +8,8 @@ logo: # filename of a logo image that has been placed into your images directory
 owner:
   name: Phillip M. Dickens
   avatar: dickens_cropped.jpg
-  bio: "A brief description"
-  email: #emailaddress
+  bio: "A brief description of me"
+  email: dickens@umcs.maine.edu
   # Do not include the @ symbol in your Twitter username
   twitter: #username
   linkedin: #username
