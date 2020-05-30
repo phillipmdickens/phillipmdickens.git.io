@@ -6,8 +6,7 @@ logo: # filename of a logo image that has been placed into your images directory
 
 # Enter the following platform usernames if you would like for them to appear on your site.
 owner:
-  name: >
-       "Phillip M. Dickens"
+  name: Phil Dickens
   avatar: dickens_cropped.jpg
   bio: "A brief description of me"
   email: dickens@umcs.maine.edu
