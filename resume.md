@@ -1,6 +1,7 @@
 ---
 layout: resume
+title: Under Construction
 ---
-## Under Construction. 
-<br>
+<div style="color:purple;">
 But please check back soon!
+</div>
