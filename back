@@ -1,0 +1,87 @@
+---
+
+layout: page
+---
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left, .right {
+  width: 25%;
+}
+
+.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2>Professional Employment</h2>
+.column {
+  float: left;
+  padding: 10px;
+  height: 50px; /* Should be removed. Only for demonstration */
+}
+
+.left, .right {
+  width: 25%;
+}
+
+.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2>Three Unequal Columns</h2>
+
+<div class="row">
+  <div class="column left" style="background-color:#aaa;">
+    <h2>Column 1</h2>
+    <p>Cooperating Professor </p>
+    <p>Associate Professor </p>
+    <p>Assistant Professor </p>
+  </div>
+  <div class="column middle" style="background-color:#bbb; text-align:center;">
+   
+    <h2>Column 2</h2>
+    <p>Climate Change Institute</p>
+    <p>Computer Science </p>
+    <p>Computer Science></p>
+  </div>
+  <div class="column right" style="background-color:#ccc;">
+    <h2>Column 3</h2>
+    <p>July 2017 - present </p>
+  </div>
+</div>
+
+</body>
+</html>
+

@@ -2,11 +2,13 @@
 - title: Home
   url: /
 
-- title: Presentations
-  url: /presentations/
+- title: Background
+  url: /background/
 
 - title: Resume
   url: /resume/
   
+
 - title: Publications
-  url: /pubs/
+  url: /pubs
+

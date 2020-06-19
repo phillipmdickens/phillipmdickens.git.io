@@ -14,22 +14,22 @@ body {
 
 .navigation-wrapper {
 	@include container;
-	padding: 2em 0 1em;
+	padding: 2em 0 1em; /*looks like top of page to top of nav*/
 	font-family: $heading-font;
 	font-weight: 700;
 	text-transform: uppercase;
 	@include clearfix;
 	border-bottom-style: solid;
 	border-bottom-color: $highlightcolor;
-	border-bottom-width: .5em;
+	border-bottom-width: 0.5em; 	/*controls top color band*/
 }
 
 /* Site name */
 .site-name {
 	@include grid(12,10);
-	@include prefix(12,1);
-	@include suffix(12,1);
-	margin-bottom: 1em;
+	@include prefix(12,1); 
+	@include suffix(12,1); 
+	margin-bottom: 0.5em; 
 	float: none;
 	display: block;
 	@include font-rem(24);
@@ -45,14 +45,24 @@ body {
 	}
 }
 
+.logo-meter {
+	float: right;
+	padding: 2em 15 1em
+	}
+
+.bib-font {
+	color: black;
+	font-weight: 5000 ;
+	}
+
 /* Top navigation links */
 .top-navigation {
-	@include grid(12,10);
+	@include grid(12,1);
 	@include prefix(12,1);
 	@include suffix(12,1);
 	margin-bottom: 1em;
 	float: none;
-	display: block;
+	display: inline;
 	@media #{$small} {
 		@include grid(12,9);
 		@include prefix(12,0);
@@ -78,7 +88,7 @@ body {
 		}
 		@media #{$small} {
 			display: inline;
-			margin-right: 25px;
+			margin-right: 50px;
 			white-space: nowrap;
 			border-bottom: 0 solid transparent;
 		}
@@ -236,16 +246,18 @@ $button-size: 1.5rem;
 	.page {
 		@include container;
 		@include grid(12,10);
-		@include prefix(12,1);
-		@include suffix(12,1);
+		@include prefix(12,0);
+		@include suffix(12,0);
 		margin-bottom: 2em;
 		@media #{$small} {
-			@include grid(12,6);
+			@include grid(12,8);
 			@include prefix(12,0);
 			@include suffix(12,0);
 		}
 		@media #{$x-large} {
-			@include grid(12,4.5);
+			@include grid(12,6.5);
+			@include prefix(12,0);
+			@include suffix(12,0);
 		}
 	}
 }
@@ -258,12 +270,12 @@ $button-size: 1.5rem;
 	@include suffix(12,1);
 	margin-bottom: 2em;
 	@media #{$small} {
-		@include grid(12,6);
-		@include prefix(12,0);
-		@include suffix(12,0);
+		@include grid(12,4);
+		@include prefix(12,1);
+		@include suffix(12,1);
 	}
 	@media #{$x-large} {
-		@include grid(12,4.5);
+		@include grid(12,6.5);
 	}
 	h3 {
 		margin: 0;
@@ -380,12 +392,12 @@ $button-size: 1.5rem;
 .article-author-side {
 	display: none;
 	.bio-photo {
-		max-width: 110px;
+		max-width: 400px;
 		@include rounded(150px);
 	}
 	@media #{$small} {
 		display: block;
-		@include grid(12,2);
+		@include grid(12,6);
 		@include prefix(12,0.5);
 		@include suffix(12,0.5);
 		h3,
@@ -428,7 +440,7 @@ $button-size: 1.5rem;
 	.bio-photo {
 		float: left;
 		margin-right: 25px;
-		max-width: 100px;
+		max-width: 200px;
 		@include rounded(150px);
 	}
 	.author-social {

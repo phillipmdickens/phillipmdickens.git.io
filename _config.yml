@@ -2,20 +2,20 @@
 
 title: Dr. Phillip M. Dickens
 locale: en_US
-logo: # filename of a logo image that has been placed into your images directory
+logo: logo.jpg
+masthead: dickens_cropped.jpg
 
 # Enter the following platform usernames if you would like for them to appear on your site.
 owner:
   name: Phillip Dickens
+  bio: "Associate Professor,<br>
+School of Computing and Information Science, <br>
+University of Maine"
   avatar: dickens_cropped.jpg
-  bio: "A brief description of me"
   email: dickens@umcs.maine.edu
+  researchgate: Phillip_Dickens
   # Do not include the @ symbol in your Twitter username
-  twitter: #username
-  linkedin: #username
-  github: #username
   orcid: # ID Number (ex. 0000-0000-0000-0000)
-  researchgate: #username
   mendeley: #username
   google:
     plus: #username
@@ -27,18 +27,9 @@ owner:
   bing-verify:
   stackoverflow: #123456/username from a "https://stackoverflow.com/users/123456/username" link
   xing: #username
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
-  youtube: #username
   soundcloud: #username
   weibo: #username
-  flickr: #username
   codepen: #username
-  disqus-shortname:
 
 # The following adjust the accents for your site. If you would like to further edit colors, fonts, font sizes, etc.
 # you may do so in _sass/variables.scss

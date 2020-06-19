@@ -1,0 +1,159 @@
+<style type="text/css">
+#div1, #div2, #div3, #div4 {
+background-color: #aeb6bf ;
+width: 23%;
+padding: 1%;
+float:left;
+text-align: center;
+color:white;
+position:relative;
+z-index:3;
+}
+#sidebar {
+background-color:#d2b4de;
+width:23%;
+height:80%;
+padding:1%;
+margin: 0 90px 0 0;
+float:left;
+text-align: center;
+color: white;
+position:relative;
+z-index: 1;
+}
+#lines {
+color: 44B229;
+}
+
+#pagecontent {
+position:relative;
+float:left;
+margin: 0 0 0 90px;
+}
+a:link {
+color:44B229;
+text-decoration:none;
+}
+a:visited {
+color:44B229;
+text-decoration:none;
+}
+a:hover {
+color: 44B229;
+text-decoration:none;
+}
+a:active {
+color:white;
+text-decoration:none;
+}
+
+#lines {
+background-color: 44B229;
+position: relative;
+z-index: 2;
+}
+
+</style>
+
+
+<html>
+<head>
+<title> Dr. Phillip Dickens' Publications </title>
+<link rel="stylesheet" type="text/css" href="computers.css" />
+</head>
+<body>
+<div id="div1"> <a href="http://aturing.umcs.maine.edu/~phillip.dickens/"> Home </a> </div>
+<div id="div2"> <a href="http://aturing.umcs.maine.edu/~phillip.dickens/lab.html"> Lab </a></div>
+<div id="div3"> Publications</div>
+<div id="div4"> <a href="http://aturing.umcs.maine.edu/~phillip.dickens/classes.html"> Classes </a> </div>
+
+<div id="lines"> Here is a text box </div>
+<h2>
+<br />
+<br />
+<div id="pageName"> Dr. Phillip Dickens' Publications </div>
+</h2>
+
+<div id="pageContent"> 
+<ul>
+  <B> Journal Papers </B>
+
+<LI> <A href="./pubs/CPE-paper-2.pdf">A High Performance Implementation of MPI-I
+O for a Lustre File System Environment</A>.
+<br>
+Dickens, P. and Logan, J.
+<br>
+Concurrency and Computation:Practice and Experience,
+<br>
+Volume 22, Issue 11, pages 1433-1449, John Wiley & Sons, Ltd., (August, 2010).
+<br>
+<br>
+<LI><A href="./pubs/Classifier.pdf">A Lightweight, High Performance Communicatio
+n Protocol for Grid Computing. </A>
+<br>
+Phillip M. Dickens.
+<br> Cluster Computing: The Journal of Networks, Software Tools and Applications
+,
+<br> Volume 13, Issue 1, Pages 47-66, Springer Netherlands, Publisher, (March, 2
+010).
+<br>
+<br>
+<LI><A href="./pubs/WIP.final.doc"> Towards Intelligent, Adaptive, and Efficient
+ Communication Services for Grid Computing.</A>
+<br>
+Phillip M. Dickens
+<br>
+IEEE Distributed Systems Online: Work in Progress. October, 2005.
+<br>
+URL: http://dsonline.computer.org/portal/site/dsonline
+<br>
+<br>
+<LI><A href="pubs/jechpd_A.desc.V2.1.1jje.doc">Traffic Analysis and Simulation o
+f a Prioritized Shared Medium </A>
+<br> Evans, J., Hood, C., and P. Dickens <br>
+SIMULATION: Transactions of The Society for Modeling and  Simulation, Internatio
+nal. Volume 79, Issue 4, April 2003.
+<br>
+<br>
+<LI><A href="./pubs/Jour_IO.ps">Evaluation of Collective I/O Implementations of
+Parallel Architectures.
+</A><br> Dickens, P. and R. Thakur <br>
+Journal of Parallel and Distributed Computing. Vol. 61, No. 8, August 1,2001
+<br>
+<br>
+<LI> <A href="./pubs/bonachea-javaio.ps">High-Performance File I/O in Java: Exis
+ting Approaches and Bulk I/O Extensions.</A><br> Bonachea, D., Dickens, P. and R
+. Thakur
+<br>
+Concurrency and Computation: Practice and Experience. Volume 13, Issue 8-9, 2001
+.
+<br>
+<br>
+<LI> <A href="./pubs/jn.ps">Java on Networks of Workstations
+(JavaNOW): A Parallel Computing Framework Inspired by Linda and the Message Pass
+ing Interface
+(MPI) </A> <br> Thiruvathukal, G., Dickens, P., and S. Bhatti.<br> Concurrency:
+Practice and
+Experience, Volume 12, Issue 13, November 2000, pp. 1093-1116.
+<br>
+<br>
+<LI> <A href="./pubs/Model.ps" > Analysis of
+       Bounded Time Warp and a Comparison With YAWNS </A> <br>
+       Dickens, P., Nicol, D., Reynolds, P. and J. M. Duva. <br>
+       ACM Transactions on Modeling and Computer Simulation, vol. 6, no. 4, Octo
+ber 1996, pp. 1996,
+       pp. 297-320.
+<br>
+<br>
+<LI> <A href="./pubs/lapse.ps" > Parallelized Direct Execution Simulation of Mes
+sage-Passing Parallel Programs </A> <br>
+      Dickens, P., Heidelberger, P. and D. Nicol. <br> IEEE Trans. on Parallel
+      and Dist. Systems, vol 7, no. 10, October 1996, pp. 1090-1105. <br>
+<br>
+<LI> Parallel Simulation of Multicomputer Programs.
+<br>
+Dickens, P., Heidelberger, P., and Nicol, D. <br>
+ICASE Research Quarterly, 3 (2). June, 1994
+<br>
+</ul>
+
