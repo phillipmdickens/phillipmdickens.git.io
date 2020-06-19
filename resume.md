@@ -1,4 +1,5 @@
 ---
 layout: resume
 ---
-## Under Construction. But please check back soon!
+## Under Construction. 
+But please check back soon!
